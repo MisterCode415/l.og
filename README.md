@@ -59,6 +59,10 @@ LOG_FILE_PATH=/path/to/your/logs/
 ```
 logs will collect in the directory specified by `LOG_FILE_PATH` with the name `runlog_YYYY-DD-MM_YYYY-DD-MM.log`, and will automatically handle the date chrun, and will always append (a+).
 
+#### SILENCE MODE
+In production you dont want console.logs, its notorious and endearing...but not helpful. Silence mode will turn off console logs, but will still write to file if enabled.
+
+
 ### AdvancedConsole
 A tool for writing outputs to the same line, or a new line without the cruft in your primary code. One line > three lines to output something. 
 ```
